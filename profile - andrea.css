@@ -1,0 +1,339 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    color: beige;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    color:  #2d1f1f;
+    text-align: padding-left;
+    
+}
+
+.container {
+    background-color: beige;
+    border-radius: 20px;
+    padding: 25px;
+
+.float-right {
+  float: right;
+  margin-right: 20px;
+  width: 200px;
+  height: 300px;
+}
+
+.nav-button {
+    display: flex;
+    gap: 15px;
+    justify-content: padding-left;
+    margin-top: 20px;
+}
+
+.nav-button a {
+    text-decoration: none;
+    background-color: saddlebrown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+
+.nav-button a:hover {
+    background-color: burlywood;
+
+}
+
+/* Main content */
+.main-content {
+    flex: 1;
+    padding: 30px;
+}
+
+/* Profile card */
+.profile-card {
+    background: white;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* Profile image */
+.profile-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #e8d9c9;
+    margin-bottom: 15px;
+}
+
+/* Profile info */
+.profile-info h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #2d1f1f;
+}
+
+.course {
+    font-size: 14px;
+    color: #8b6f5a;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: rosybrown;
+    margin-bottom: 15px;
+}
+
+/* Button */
+button {
+    background-color: #8b6f5a;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #6f5746;
+}
+
+/* Cards section */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.card {
+    background:lightpink;
+    padding: 18px;
+    border-radius: 12px;
+    border: 1px solid #eee3d7;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.card h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #3b2f2f;
+}
+
+.card p, .card li {
+    font-size: 13px;
+    color: black;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif;;
+}
+
+.card ul {
+    padding-left: 18px;
+}
+
+/* Section title */
+.section-title {
+    margin-top: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #2d1f1f;
+}
+
+/* Books section */
+.books {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 150px;
+    background: lightpink;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #eee3d7;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+    transition: 0.2s;
+}
+
+.book:hover {
+    transform: translateY(-3px);
+}
+
+.book img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #f0e7dd;
+}
+
+.book p {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #444;
+}
+
+/* Songs section */
+.songs {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.song {
+    width: 150px;
+    background: lightpink;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #eee3d7;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+    transition: 0.2s;
+}
+
+.song:hover {
+    transform: translateY(-3px);
+}
+
+.song img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #f0e7dd;
+}
+
+.song p {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #444;
+}
+
+/* Movies section */
+.movies {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.movie {
+    width: 150px;
+    background: rosybrown;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #eee3d7;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+    transition: 0.2s;
+}
+
+.movie:hover {
+    transform: translateY(-3px);
+}
+
+.movie img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #f0e7dd;
+}
+
+.movie p {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #444;
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    width: 180px;
+    background: white;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #eee3d7;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+    transition: 0.2s;
+}
+
+.gallery-item:hover {
+    transform: translateY(-3px);
+}
+
+.gallery-item img {
+    width: 150px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.gallery-item p {
+    margin-top: 0px;
+    font-size: 13px;
+    color: #444;
+}
+
+.interest {
+    background: white;
+    border-radius: 2px;
+    padding: 25px;
+}
+
+.interest img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-top: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .books {
+        justify-content: center;
+    }
+}
